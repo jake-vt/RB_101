@@ -1,0 +1,12 @@
+en:
+  welcome: "Welcome to Calculator! Enter your name:"
+  invalid_name: "Make sure to enter a valid name."
+  invalid_number: "Hmm... that doesn't look like a valid number"
+  restart?: "Do you want to perform another calculation? (Y to calculate again)"
+  goodbye: "Thank you for using Calculator! Goodbye."
+es:
+  welcome: "Bienvenido a la calculadora! Entre su nombre:"
+  invalid_name: "Asegúrese de entrar un nombre válido."
+  invalid_number: "Hmm... eso no parece un número válido"
+  restart?: "¿Desea realizar otro cálculo? (Y para calcular de nuevo)"
+  goodbye: "Gracias por usar la calculadora. Adiós."

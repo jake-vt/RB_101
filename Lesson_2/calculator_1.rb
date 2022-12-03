@@ -17,11 +17,11 @@ Kernel.puts("What's the operation?: \n1 = add   2 = subtract \n3 = multiply   4 
 operator = Kernel.gets().chomp().to_i
 
 case operator
-  when 1 then result = number1 + number2
-  when 2 then result = number1 - number2
-  when 3 then result = number1 * number2
-  when 4 then result = number1 / number2
-  else Kernel.puts("Uh-Oh... something went wrong")
+when 1 then result = number1 + number2
+when 2 then result = number1 - number2
+when 3 then result = number1 * number2
+when 4 then result = number1 / number2
+else Kernel.puts("Uh-Oh... something went wrong")
 end
 
 Kernel.puts("==> Result = #{result}")
