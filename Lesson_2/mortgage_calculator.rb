@@ -1,11 +1,11 @@
 =begin
-
+------------------------------------------------------------------------------------------
 HINTS
 -------
 - Think about format of inputs (e.g. should the interest rate be expressed as 5 or .05, if you mean 5% interest?)
 - How to convert Annual Percentage Rate (APR) into monthly interest rate.
 - Be careful about the loan duration (are you working with months or years?)
-
+------------------------------------------------------------------------------------------
 =end
 
 # METHODS

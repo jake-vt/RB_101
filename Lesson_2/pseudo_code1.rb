@@ -1,17 +1,17 @@
 =begin 
-
+------------------------------------------------------------------------------------------
 ### - a method that returns the sum of two integers
 
 START 
 
-PRINT invitation to GET & SET number_1
-PRINT invitation to GET & SET number_2
+PRINT invitation to SET number_1
+PRINT invitation to SET number_2
 
-READ number_1 & number_2
-PRINT the sum of number_1 & number_2
+SUM number_1 & number_2. 
+PRINT result
 
 END
-
+------------------------------------------------------------------------------------------
 =end
 
 puts "Welcome to the adder!"

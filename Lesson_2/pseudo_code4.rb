@@ -1,5 +1,5 @@
 =begin
-
+------------------------------------------------------------------------------------------
 ### - A method that determines the index of the 3rd occurrence of 
 ### - a given character in a string. For instance: 
 ### -     the given character is 'x' and the string is 'axbxcdxex', 
@@ -10,7 +10,7 @@
 2) Invite and accept the target character
 3) Locate the 3rd instance of the target character
 4) Print the index of this instance 
-
+------------------------------------------------------------------------------------------
 =end
 
 def third_instance(string, target_char)

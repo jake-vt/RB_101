@@ -1,3 +1,15 @@
+=begin
+------------------------------------------------------------------------------------------
+REQS
+----
+- Create a 'Rock Paper Scissors (Lizard Spock)' program for Player vs. Computer
+- Enable user to write abbreviations (e.g. 'R' for 'Rock')
+- Enable mmultiple games to be played in a session
+- Keep track of score
+------------------------------------------------------------------------------------------
+=end
+
+
 # CONSTANTS
 VALID_CHOICES = ['R', 'P', 'Sc', 'L','Sp']
 FULLWORD_CHOICES = ['Rock', 'Paper','Scissors', 'Lizard', 'Spock']

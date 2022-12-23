@@ -1,9 +1,17 @@
+=begin
+------------------------------------------------------------------------------------------
+TASK
+----
 # asks the user for two numbers
 # asks the user for an operation to perform
 # perform the operation on the two numbers
 # output the result
 
-# note: all methods are prefixed with their module and suffixed with their parameters for learning purposes
+NOTE
+----
+# all methods are prefixed with their module and suffixed with their parameters for learning purposes
+------------------------------------------------------------------------------------------
+=end
 
 Kernel.puts("Welcome to Calculator")
 

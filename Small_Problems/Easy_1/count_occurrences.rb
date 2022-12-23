@@ -1,8 +1,8 @@
 =begin
-
+------------------------------------------------------------------------------------------
 Write a method that counts the number of occurrences of each element in a given array.
 Once counted, print each element alongside the number of occurrences.
-The words in the array are case-sensitive: 'suv' != 'SUV'. 
+The words in the array are case-sensitive: 'suv' != 'SUV'.
 
 Expected Output
 -------------
@@ -10,7 +10,7 @@ car => 4
 truck => 3
 SUV => 1
 motorcycle => 2
-
+------------------------------------------------------------------------------------------
 =end
 
 # BRUTE FORCE
@@ -41,10 +41,10 @@ def count_occurrences_2(array)
   end
 end
 
-# IDIOMATIC (incomplete)
+# IDIOMATIC 
 def count_occurrences_3(arr)
   tally = arr.tally
-  tally.each {|element| puts element}
+  tally.each_pair {|key, value| puts "#{key} => #{value.to_s}"}
 end
 
 

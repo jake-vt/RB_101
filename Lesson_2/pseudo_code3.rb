@@ -1,14 +1,14 @@
 =begin
-
+------------------------------------------------------------------------------------------
 ### - a method that takes an array of integers, and returns a new array
 ### - with every other element from the original array, starting with
 ### - the first element. For instance:
                                     every_other([1,4,7,2,5]) # => [1,7,5]
 
-1) Invite and accept a 5 interger array from the user
-2) Iterate through array to populate a new array with old even index-value pairs
-3) Print this new array to the user
-
+1) SET 5-interger array (from user)
+2) ITERATE through array; SELECT even index-value pairs; SET result array
+3) PRINT result array
+------------------------------------------------------------------------------------------
 =end
 
 origin_array = []
@@ -17,7 +17,7 @@ puts '=> Please input any five integers'
 
 loop do
   origin_array[origin_array.size] = gets.chomp.to_i
-  break if origin_array.size > 4
+  break if origin_array.size >= 5
 end
 
 def every_other(array)
@@ -25,7 +25,8 @@ def every_other(array)
   sliced_array = array.map.with_index do |number, index|
     number if index.even?
   end
-  puts sliced_array.join(' ')
+  
+  sliced_array.join(' ')
 end
 
-every_other(origin_array)
+puts every_other(origin_array)

@@ -1,5 +1,5 @@
 =begin
-
+------------------------------------------------------------------------------------------
 UPDATES
 -------
 1) Input validation: 
@@ -18,7 +18,7 @@ UPDATES
 4) User Options:
     - Can re-run program
     - Can change language from English ('en') to Spanish ('es')
-
+------------------------------------------------------------------------------------------
 =end 
 
 # Modules

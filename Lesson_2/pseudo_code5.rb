@@ -1,5 +1,5 @@
 =begin
-
+------------------------------------------------------------------------------------------
 ### - A method that takes two arrays of numbers and returns the result of merging the arrays.
 ### - The elements of the first array should become the elements at the even indexes of the returned array
 ### - while the elements of the second array should become the elements at the odd indexes.
@@ -12,7 +12,7 @@
 2) Invite and accept array 2
 3) Iterate through both arrays alternating which array value to insert
 4) Print the result
-
+------------------------------------------------------------------------------------------
 =end
 
 arr1 = [1, 2, 3]
